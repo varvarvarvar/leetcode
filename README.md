@@ -2,7 +2,11 @@
 
 | Problem  | Solution |
 | ------------- | ------------- |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | [1](https://github.com/varvara-krasavina/leetcode/blob/master/0001.py) |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[7](https://github.com/varvara-krasavina/leetcode/blob/master/0007.py) |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [9](https://github.com/varvara-krasavina/leetcode/blob/master/0009.py) |
+| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [13](https://github.com/varvara-krasavina/leetcode/blob/master/0013.py) |
+| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [14](https://github.com/varvara-krasavina/leetcode/blob/master/0014.py) |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [75](https://github.com/varvara-krasavina/leetcode/blob/master/0075.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  | [125](https://github.com/varvara-krasavina/leetcode/blob/master/0125.py)  |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [189](https://github.com/varvara-krasavina/leetcode/blob/master/0189.py) |
