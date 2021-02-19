@@ -2,7 +2,6 @@
 
 
 class Solution:
-
     def reverse(self, x: int) -> int:
 
         if not x:
@@ -12,12 +11,12 @@ class Solution:
 
         x = list(str(abs(x)))
 
-        for i in range(len(x)//2):
-            x[i], x[len(x)-i-1] = x[len(x)-i-1], x[i]
+        for i in range(len(x) // 2):
+            x[i], x[len(x) - i - 1] = x[len(x) - i - 1], x[i]
 
-        x = int(''.join(x))
+        x = int("".join(x))
         x *= sign
-        x *= -2**31 <= x <= 2**31 - 1
+        x *= -(2 ** 31) <= x <= 2 ** 31 - 1
 
         return x
 

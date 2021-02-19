@@ -8,7 +8,6 @@ It doesn't matter what you leave beyond the returned length."""
 
 
 class Solution:
-
     def removeDuplicates(self, nums, debug_mode=False) -> int:
 
         len_nums = len(nums)
@@ -33,10 +32,7 @@ class Solution:
 
 sol = Solution()
 
-assert sol.removeDuplicates(
-    [0, 0, 1, 1, 1, 2, 2, 3, 3, 4],
-    debug_mode=True
-) == 5
+assert sol.removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4], debug_mode=True) == 5
 assert sol.nums == [0, 1, 2, 3, 4]
 
 assert sol.removeDuplicates([1, 1, 2], debug_mode=True) == 2

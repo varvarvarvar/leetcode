@@ -7,7 +7,6 @@ and you may not use the same element twice.
 
 
 class Solution(object):
-
     def twoSum(self, nums, target):
         """
         :type nums: List[int]

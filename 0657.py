@@ -20,13 +20,13 @@ class Solution(object):
         res_up = 0
         res_left = 0
         for move in moves:
-            if move == 'U':
+            if move == "U":
                 res_up += 1
-            elif move == 'D':
+            elif move == "D":
                 res_up -= 1
-            elif move == 'L':
+            elif move == "L":
                 res_left += 1
-            elif move == 'R':
+            elif move == "R":
                 res_left -= 1
         return not res_up and not res_left
 

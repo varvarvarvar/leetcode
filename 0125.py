@@ -13,7 +13,7 @@ class Solution:
         """
 
         i = 0
-        j = len(s)-1
+        j = len(s) - 1
 
         if not s:
             return True
@@ -34,7 +34,7 @@ class Solution:
         return True
 
 
-assert Solution().isPalindrome('a,ba')
-assert Solution().isPalindrome('A man, a plan, a canal: Panama')
-assert not (Solution().isPalindrome('race a car'))
-assert Solution().isPalindrome('')
+assert Solution().isPalindrome("a,ba")
+assert Solution().isPalindrome("A man, a plan, a canal: Panama")
+assert not (Solution().isPalindrome("race a car"))
+assert Solution().isPalindrome("")

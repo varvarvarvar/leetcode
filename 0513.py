@@ -34,6 +34,7 @@ Note: You may assume the tree (i.e., the given root node) is not NULL.
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def findBottomLeftValue(self, root):
         queue = [root]

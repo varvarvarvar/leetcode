@@ -21,6 +21,7 @@ Output: [1, 3, 9]
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def largestValues(self, root):
         if not root:
@@ -29,5 +30,7 @@ class Solution(object):
         current_row = [root]
         while current_row:
             maxes.append(max((el.val for el in current_row)))
-            current_row = [child for el in current_row for child in (el.left, el.right) if child]
+            current_row = [
+                child for el in current_row for child in (el.left, el.right) if child
+            ]
         return maxes

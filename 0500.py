@@ -3,11 +3,12 @@ on only one row's of American keyboard like the image below."""
 
 
 class Solution(object):
-
     def __init__(self):
-        self.lines = [{'e', 'u', 'y', 'o', 'r', 't', 'w', 'q', 'p', 'i'},
-                      {'g', 'd', 's', 'k', 'f', 'l', 'a', 'j', 'h'},
-                      {'z', 'm', 'c', 'b', 'x', 'n', 'v'}]
+        self.lines = [
+            {"e", "u", "y", "o", "r", "t", "w", "q", "p", "i"},
+            {"g", "d", "s", "k", "f", "l", "a", "j", "h"},
+            {"z", "m", "c", "b", "x", "n", "v"},
+        ]
 
     def findWords(self, words):
         res = []

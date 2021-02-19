@@ -5,10 +5,9 @@ determine if the input string is valid.
 
 
 class Solution:
-
     def isValid(self, s: str) -> bool:
 
-        pairs = {'(': ')', '{': '}', '[': ']'}
+        pairs = {"(": ")", "{": "}", "[": "]"}
         stack = []
 
         for ch in s:
@@ -28,10 +27,10 @@ class Solution:
         return not stack
 
 
-assert Solution().isValid('()')
-assert Solution().isValid('()[]{}')
-assert not Solution().isValid('(]')
-assert not Solution().isValid('([)]')
-assert Solution().isValid('{[]}')
-assert Solution().isValid('(((((())))))')
-assert Solution().isValid('{}{}()[]')
+assert Solution().isValid("()")
+assert Solution().isValid("()[]{}")
+assert not Solution().isValid("(]")
+assert not Solution().isValid("([)]")
+assert Solution().isValid("{[]}")
+assert Solution().isValid("(((((())))))")
+assert Solution().isValid("{}{}()[]")

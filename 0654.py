@@ -32,6 +32,7 @@ The size of the given array will be in the range [1,1000].
 #         self.left = None
 #         self.right = None
 
+
 class Solution(object):
     def constructMaximumBinaryTree(self, nums):
         if nums:
@@ -41,6 +42,6 @@ class Solution(object):
             root = TreeNode(max_num)
 
             root.left = self.constructMaximumBinaryTree(nums[:max_num_index])
-            root.right = self.constructMaximumBinaryTree(nums[max_num_index + 1:])
+            root.right = self.constructMaximumBinaryTree(nums[max_num_index + 1 :])
 
             return root

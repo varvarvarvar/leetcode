@@ -32,13 +32,13 @@ class Solution:
 
         for i in range(k):
             tmp = nums[i]
-            nums[i] = nums[n-k+i]
-            nums[n-k+i] = tmp
+            nums[i] = nums[n - k + i]
+            nums[n - k + i] = tmp
 
-        for i in range(k, n-1):
+        for i in range(k, n - 1):
             tmp = nums[i]
-            nums[i] = nums[i+1]
-            nums[i+1] = tmp
+            nums[i] = nums[i + 1]
+            nums[i + 1] = tmp
 
 
 nums = []

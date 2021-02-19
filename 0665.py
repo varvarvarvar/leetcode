@@ -11,34 +11,33 @@ import unittest
 class Solution:
     def checkPossibility(self, nums):
 
-        res_sum = sum([nums[i] >= nums[i-1] for i in range(1, len(nums))])
+        res_sum = sum([nums[i] >= nums[i - 1] for i in range(1, len(nums))])
 
-        if res_sum < len(nums)-2:
+        if res_sum < len(nums) - 2:
             return False
 
         for i in range(1, len(nums)):
 
-            if nums[i] >= nums[i-1]:
+            if nums[i] >= nums[i - 1]:
                 continue
 
             if i == len(nums) - 1:
-                nums_next = nums[i] + nums[i-1]
+                nums_next = nums[i] + nums[i - 1]
             else:
-                nums_next = nums[i+1]
+                nums_next = nums[i + 1]
 
             if i == 1:
                 nums_prev_prev = 0
             else:
-                nums_prev_prev = nums[i-2]
+                nums_prev_prev = nums[i - 2]
 
-            if nums[i]-nums_prev_prev < 1 and nums_next-nums[i-1] < 1:
+            if nums[i] - nums_prev_prev < 1 and nums_next - nums[i - 1] < 1:
                 return False
 
         return True
 
 
 class TestStringMethods(unittest.TestCase):
-
     def test_upper(self):
 
         sol = Solution()
@@ -52,5 +51,5 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(sol.checkPossibility([1, 2, 4, 5, 3]), True)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

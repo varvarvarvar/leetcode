@@ -9,7 +9,6 @@ It doesn't matter what you leave beyond the new length."""
 
 
 class Solution:
-
     def __init__(self, debug_mode=False):
         self.debug_mode = debug_mode
 
