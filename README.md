@@ -16,7 +16,7 @@
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [75](https://github.com/varvara-krasavina/leetcode/blob/master/0075.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  | [125](https://github.com/varvara-krasavina/leetcode/blob/master/0125.py)  |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [189](https://github.com/varvara-krasavina/leetcode/blob/master/0189.py) |
-| [House Robber](https://leetcode.com/problems/house-robber/) | [198](ttps://github.com/varvara-krasavina/leetcode/blob/master/0198.py) |
+| [House Robber](https://leetcode.com/problems/house-robber/) | [198](https://github.com/varvara-krasavina/leetcode/blob/master/0198.py) |
 | [Count Primes](https://leetcode.com/problems/count-primes/) | [204](https://github.com/varvara-krasavina/leetcode/blob/master/0204.py) |
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [442](https://github.com/varvara-krasavina/leetcode/blob/master/0442.py) |
 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [454](https://github.com/varvara-krasavina/leetcode/blob/master/0454.py) |
