@@ -20,6 +20,7 @@ Solutions for https://leetcode.com/ algorithmic problems.
 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [0189](https://github.com/varvara-krasavina/leetcode/blob/master/0189.py) |
 | [House Robber](https://leetcode.com/problems/house-robber/) | [0198](https://github.com/varvara-krasavina/leetcode/blob/master/0198.py) |
 | [Count Primes](https://leetcode.com/problems/count-primes/) | [0204](https://github.com/varvara-krasavina/leetcode/blob/master/0204.py) |
+| [Reverse String](https://leetcode.com/problems/reverse-string/) | [0344](ttps://github.com/varvara-krasavina/leetcode/blob/master/0344.py) |
 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [0442](https://github.com/varvara-krasavina/leetcode/blob/master/0442.py) |
 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [0454](https://github.com/varvara-krasavina/leetcode/blob/master/0454.py) |
 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | [0500](https://github.com/varvara-krasavina/leetcode/blob/master/0500.py) |
