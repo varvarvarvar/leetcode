@@ -15,6 +15,7 @@ Solutions for https://leetcode.com/ algorithmic problems.
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [0020](https://github.com/varvara-krasavina/leetcode/blob/master/solutions/0020.py) |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [0026](https://github.com/varvara-krasavina/leetcode/blob/master/solutions/0026.py) |
 | [Remove Element](https://leetcode.com/problems/remove-element/) | [0027](https://github.com/varvara-krasavina/leetcode/blob/master/solutions/0027.py) |
+| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [0028](https://github.com/varvarvarvar/leetcode/blob/master/solutions/0028.py) |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [0075](https://github.com/varvara-krasavina/leetcode/blob/master/solutions/0075.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  | [0125](https://github.com/varvara-krasavina/leetcode/blob/master/solutions/0125.py)  |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [0189](https://github.com/varvara-krasavina/leetcode/blob/master/solutions/0189.py) |
