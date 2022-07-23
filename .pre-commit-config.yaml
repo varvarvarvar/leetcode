@@ -1,0 +1,35 @@
+default_language_version:
+  python: python3.8
+
+fail_fast: true
+
+repos:
+  - repo: local
+    hooks:
+      - id: isort
+        name: isort
+        entry: poetry run isort --check-only
+        args: [.]
+        language: system
+        pass_filenames: false
+
+      - id: black
+        name: black
+        entry: poetry run black --check
+        args: [.]
+        language: system
+        pass_filenames: false
+      
+      - id: pylint
+        name: pylint
+        entry: poetry run pylint
+        args: [problems]
+        language: system
+        pass_filenames: false
+
+      - id: pylint-tests
+        name: pylint
+        entry: poetry run pylint
+        args: [tests]
+        language: system
+        pass_filenames: false
