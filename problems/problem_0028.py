@@ -2,7 +2,6 @@
 or -1 if needle is not part of haystack.
 
 For the purpose of this problem, we will return 0 when needle is an empty string.
-
 """
 
 

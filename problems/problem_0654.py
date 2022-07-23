@@ -1,5 +1,4 @@
-"""
-Given an integer array with no duplicates.
+"""Given an integer array with no duplicates.
 
 A maximum tree building on this array is defined as follows:
 

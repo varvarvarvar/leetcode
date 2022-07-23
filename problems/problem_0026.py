@@ -4,7 +4,8 @@ such that each element appear only once and return the new length.
 Do not allocate extra space for another array, you must do this
 by modifying the input array in-place with O(1) extra memory.
 
-It doesn't matter what you leave beyond the returned length."""
+It doesn't matter what you leave beyond the returned length.
+"""
 
 
 class Solution:
