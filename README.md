@@ -5,7 +5,7 @@ Solutions for https://leetcode.com/ algorithmic problems.
 | Problem  | Solution |
 | ------------- | ------------- |
 | [Two Sum](https://leetcode.com/problems/two-sum/) | [0001](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0001.py) |
-| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [0002](https://github.com/varvara-krasavina/leetcode/blob/master/probmels/0002.py) |
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [0002](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0002.py) |
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[0007](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0007.py) |
 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [0009](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0009.py) |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [0011](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0011.py) |
@@ -15,7 +15,7 @@ Solutions for https://leetcode.com/ algorithmic problems.
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [0020](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0020.py) |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [0026](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0026.py) |
 | [Remove Element](https://leetcode.com/problems/remove-element/) | [0027](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0027.py) |
-| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [0028](https://github.com/varvarvarvar/leetcode/blob/master/problems/0028.py) |
+| [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [0028](https://github.com/varvarvarvar/leetcode/blob/master/problems/problem_0028.py) |
 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [0075](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0075.py) |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  | [0125](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0125.py)  |
 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [0189](https://github.com/varvara-krasavina/leetcode/blob/master/problems/problem_0189.py) |
